@@ -16,8 +16,10 @@ def imprimir_mayor(numero_1, numero_2):
     # y luego imprimir dicho valor en pantalla
     if numero_1 > numero_2:
         print('El numero mayor es: {}'.format(numero_1))
-    else:
+    elif numero_2 < numero_1:
         print('El numero mayor es: {}'.format(numero_2))
+    else:
+        print('los numeros son iguales')
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
